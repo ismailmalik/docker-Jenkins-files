@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("ismailmalik/jenkins-docker")
+        app = docker.build("ismailmalik/docker-jenkins-test")
     }
 
     stage('Test image') {
